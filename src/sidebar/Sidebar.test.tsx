@@ -9,7 +9,7 @@ describe("all elements render properly", () =>{
 
     test('renders learn react link', () => {
         
-        const linkElement = screen.getByTestId("sidebarr")
+        const linkElement = screen.getByTestId("sideba")
         expect(linkElement).toBeInTheDocument();
       });
       test('renders learn react link', () => {
